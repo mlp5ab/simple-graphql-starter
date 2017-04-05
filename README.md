@@ -108,7 +108,7 @@ query {
 
 We recommend trying to finish the project in 2-3 hours. The goal is not to give you meaningless work, but is instead here to help us understand how well you grasp web technologies at a high level. This does not need to be a full application and you should try to touch as many of the objectives and bonuses as you can so that we can have a discussion about how you approached each one.
 
-This project is also meant to be fun! You can use any DB & Web Service that you are interested in. Here is a (non-exhaustive list that you can use for reference)[https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/]. Think of this as a mini-hackathon where the reward is salary, ownership, and meaningful equity :)
+This project is also meant to be fun! You can use any DB & Web Service that you are interested in. Here is a [non-exhaustive list that you can use for reference](https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/). Think of this as a mini-hackathon where the reward is salary, ownership, and meaningful equity :)
 
 Thanks for taking the time to complete this project! We really appreciate it!
 
