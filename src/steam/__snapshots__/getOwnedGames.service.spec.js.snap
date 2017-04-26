@@ -1,0 +1,3050 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Getting owned games from steam should return an array of games given a steam id 1`] = `
+Array [
+  Object {
+    "appid": 10,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 20,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 30,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 40,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 50,
+    "playtime_forever": 52,
+  },
+  Object {
+    "appid": 60,
+    "playtime_forever": 58,
+  },
+  Object {
+    "appid": 70,
+    "playtime_forever": 98,
+  },
+  Object {
+    "appid": 130,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 80,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 100,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 220,
+    "playtime_forever": 1047,
+  },
+  Object {
+    "appid": 240,
+    "playtime_forever": 48,
+  },
+  Object {
+    "appid": 280,
+    "playtime_forever": 540,
+  },
+  Object {
+    "appid": 300,
+    "playtime_forever": 64,
+  },
+  Object {
+    "appid": 320,
+    "playtime_forever": 76,
+  },
+  Object {
+    "appid": 340,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 360,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 380,
+    "playtime_forever": 142,
+  },
+  Object {
+    "appid": 400,
+    "playtime_forever": 107,
+  },
+  Object {
+    "appid": 420,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 500,
+    "playtime_forever": 1704,
+  },
+  Object {
+    "appid": 550,
+    "playtime_forever": 1472,
+  },
+  Object {
+    "appid": 620,
+    "playtime_forever": 1154,
+  },
+  Object {
+    "appid": 730,
+    "playtime_forever": 549,
+  },
+  Object {
+    "appid": 1300,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 1309,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 1313,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 1520,
+    "playtime_forever": 26,
+  },
+  Object {
+    "appid": 3830,
+    "playtime_forever": 51,
+  },
+  Object {
+    "appid": 4000,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3900,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 34440,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3200,
+    "playtime_forever": 141,
+  },
+  Object {
+    "appid": 3480,
+    "playtime_forever": 54,
+  },
+  Object {
+    "appid": 2600,
+    "playtime_forever": 41,
+  },
+  Object {
+    "appid": 6910,
+    "playtime_forever": 50,
+  },
+  Object {
+    "appid": 6920,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 7200,
+    "playtime_forever": 136,
+  },
+  Object {
+    "appid": 8400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 4540,
+    "playtime_forever": 529,
+  },
+  Object {
+    "appid": 475150,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 4550,
+    "playtime_forever": 849,
+  },
+  Object {
+    "appid": 9180,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2270,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2280,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2300,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 9160,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2290,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2310,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 2320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2330,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2340,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2200,
+    "playtime_forever": 42,
+  },
+  Object {
+    "appid": 2350,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2390,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2360,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 2370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 9060,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 4570,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 4580,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 9310,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 4500,
+    "playtime_forever": 311,
+  },
+  Object {
+    "appid": 7940,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 12140,
+    "playtime_forever": 203,
+  },
+  Object {
+    "appid": 12100,
+    "playtime_forever": 33,
+  },
+  Object {
+    "appid": 12110,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12120,
+    "playtime_forever": 82,
+  },
+  Object {
+    "appid": 12170,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12180,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12230,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12240,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12250,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 12500,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 12900,
+    "playtime_forever": 153,
+  },
+  Object {
+    "appid": 13250,
+    "playtime_forever": 35,
+  },
+  Object {
+    "appid": 13240,
+    "playtime_forever": 48,
+  },
+  Object {
+    "appid": 13200,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 13210,
+    "playtime_forever": 226,
+  },
+  Object {
+    "appid": 16300,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 19900,
+    "playtime_forever": 184,
+  },
+  Object {
+    "appid": 20510,
+    "playtime_forever": 436,
+  },
+  Object {
+    "appid": 17300,
+    "playtime_forever": 99,
+  },
+  Object {
+    "appid": 17330,
+    "playtime_forever": 172,
+  },
+  Object {
+    "appid": 17340,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 20900,
+    "playtime_forever": 1757,
+  },
+  Object {
+    "appid": 22000,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 3540,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 12200,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 22300,
+    "playtime_forever": 410,
+  },
+  Object {
+    "appid": 13600,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 8340,
+    "playtime_forever": 54,
+  },
+  Object {
+    "appid": 8350,
+    "playtime_forever": 71,
+  },
+  Object {
+    "appid": 8360,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 8370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 8380,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 17460,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 17410,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 22500,
+    "playtime_forever": 198,
+  },
+  Object {
+    "appid": 27400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 23500,
+    "playtime_forever": 44,
+  },
+  Object {
+    "appid": 26000,
+    "playtime_forever": 47,
+  },
+  Object {
+    "appid": 22180,
+    "playtime_forever": 148,
+  },
+  Object {
+    "appid": 27020,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 24740,
+    "playtime_forever": 96,
+  },
+  Object {
+    "appid": 26800,
+    "playtime_forever": 230,
+  },
+  Object {
+    "appid": 3410,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3590,
+    "playtime_forever": 356,
+  },
+  Object {
+    "appid": 1250,
+    "playtime_forever": 970,
+  },
+  Object {
+    "appid": 35420,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 25900,
+    "playtime_forever": 1163,
+  },
+  Object {
+    "appid": 22330,
+    "playtime_forever": 148,
+  },
+  Object {
+    "appid": 22320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 23120,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 3910,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3920,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3960,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3970,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3980,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3990,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7600,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7610,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7650,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7660,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7670,
+    "playtime_forever": 38,
+  },
+  Object {
+    "appid": 7730,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7760,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 7770,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 8800,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 8880,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 8890,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 16810,
+    "playtime_forever": 58,
+  },
+  Object {
+    "appid": 34450,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 34460,
+    "playtime_forever": 61,
+  },
+  Object {
+    "appid": 409710,
+    "playtime_forever": 16,
+  },
+  Object {
+    "appid": 21660,
+    "playtime_forever": 11,
+  },
+  Object {
+    "appid": 11360,
+    "playtime_forever": 48,
+  },
+  Object {
+    "appid": 35700,
+    "playtime_forever": 173,
+  },
+  Object {
+    "appid": 6010,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 32340,
+    "playtime_forever": 34,
+  },
+  Object {
+    "appid": 6000,
+    "playtime_forever": 12,
+  },
+  Object {
+    "appid": 32360,
+    "playtime_forever": 199,
+  },
+  Object {
+    "appid": 35010,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 35140,
+    "playtime_forever": 964,
+  },
+  Object {
+    "appid": 29180,
+    "playtime_forever": 145,
+  },
+  Object {
+    "appid": 38400,
+    "playtime_forever": 147,
+  },
+  Object {
+    "appid": 38410,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 37400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 37420,
+    "playtime_forever": 109,
+  },
+  Object {
+    "appid": 15500,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 15520,
+    "playtime_forever": 26,
+  },
+  Object {
+    "appid": 32370,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 21690,
+    "playtime_forever": 74,
+  },
+  Object {
+    "appid": 38450,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 6020,
+    "playtime_forever": 63,
+  },
+  Object {
+    "appid": 6030,
+    "playtime_forever": 10,
+  },
+  Object {
+    "appid": 32380,
+    "playtime_forever": 53,
+  },
+  Object {
+    "appid": 32390,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 32400,
+    "playtime_forever": 28,
+  },
+  Object {
+    "appid": 35500,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 40300,
+    "playtime_forever": 127,
+  },
+  Object {
+    "appid": 37600,
+    "playtime_forever": 30,
+  },
+  Object {
+    "appid": 40700,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 41210,
+    "playtime_forever": 198,
+  },
+  Object {
+    "appid": 221180,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 41500,
+    "playtime_forever": 812,
+  },
+  Object {
+    "appid": 32150,
+    "playtime_forever": 2338,
+  },
+  Object {
+    "appid": 40400,
+    "playtime_forever": 100,
+  },
+  Object {
+    "appid": 41000,
+    "playtime_forever": 126,
+  },
+  Object {
+    "appid": 564310,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 41800,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 3170,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 22370,
+    "playtime_forever": 480,
+  },
+  Object {
+    "appid": 27220,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 219780,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 8850,
+    "playtime_forever": 90,
+  },
+  Object {
+    "appid": 409720,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 24980,
+    "playtime_forever": 1366,
+  },
+  Object {
+    "appid": 41700,
+    "playtime_forever": 1485,
+  },
+  Object {
+    "appid": 15100,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 33230,
+    "playtime_forever": 27,
+  },
+  Object {
+    "appid": 45000,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 48700,
+    "playtime_forever": 164,
+  },
+  Object {
+    "appid": 43110,
+    "playtime_forever": 1070,
+  },
+  Object {
+    "appid": 20820,
+    "playtime_forever": 98,
+  },
+  Object {
+    "appid": 48900,
+    "playtime_forever": 38,
+  },
+  Object {
+    "appid": 24960,
+    "playtime_forever": 1620,
+  },
+  Object {
+    "appid": 8190,
+    "playtime_forever": 213,
+  },
+  Object {
+    "appid": 41010,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 49600,
+    "playtime_forever": 27,
+  },
+  Object {
+    "appid": 4920,
+    "playtime_forever": 465,
+  },
+  Object {
+    "appid": 8930,
+    "playtime_forever": 40,
+  },
+  Object {
+    "appid": 34270,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 49400,
+    "playtime_forever": 363,
+  },
+  Object {
+    "appid": 22380,
+    "playtime_forever": 3071,
+  },
+  Object {
+    "appid": 32460,
+    "playtime_forever": 17,
+  },
+  Object {
+    "appid": 24780,
+    "playtime_forever": 31,
+  },
+  Object {
+    "appid": 40990,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 50130,
+    "playtime_forever": 49,
+  },
+  Object {
+    "appid": 22600,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 205790,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 63610,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 63600,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 63620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 63630,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 63640,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 63650,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 63660,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 47540,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 50620,
+    "playtime_forever": 30,
+  },
+  Object {
+    "appid": 462780,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 62100,
+    "playtime_forever": 187,
+  },
+  Object {
+    "appid": 70400,
+    "playtime_forever": 227,
+  },
+  Object {
+    "appid": 31280,
+    "playtime_forever": 254,
+  },
+  Object {
+    "appid": 70300,
+    "playtime_forever": 268,
+  },
+  Object {
+    "appid": 63910,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 70110,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 67000,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 78000,
+    "playtime_forever": 108,
+  },
+  Object {
+    "appid": 40370,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 63200,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 42910,
+    "playtime_forever": 190,
+  },
+  Object {
+    "appid": 73010,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 99200,
+    "playtime_forever": 27,
+  },
+  Object {
+    "appid": 92800,
+    "playtime_forever": 3454,
+  },
+  Object {
+    "appid": 99700,
+    "playtime_forever": 344,
+  },
+  Object {
+    "appid": 15540,
+    "playtime_forever": 44,
+  },
+  Object {
+    "appid": 18500,
+    "playtime_forever": 919,
+  },
+  Object {
+    "appid": 26500,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 35460,
+    "playtime_forever": 45,
+  },
+  Object {
+    "appid": 38700,
+    "playtime_forever": 171,
+  },
+  Object {
+    "appid": 38720,
+    "playtime_forever": 86,
+  },
+  Object {
+    "appid": 40800,
+    "playtime_forever": 228,
+  },
+  Object {
+    "appid": 57300,
+    "playtime_forever": 593,
+  },
+  Object {
+    "appid": 63700,
+    "playtime_forever": 423,
+  },
+  Object {
+    "appid": 55040,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 91600,
+    "playtime_forever": 228,
+  },
+  Object {
+    "appid": 9200,
+    "playtime_forever": 64,
+  },
+  Object {
+    "appid": 95300,
+    "playtime_forever": 225,
+  },
+  Object {
+    "appid": 35480,
+    "playtime_forever": 53,
+  },
+  Object {
+    "appid": 104100,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 105600,
+    "playtime_forever": 1355,
+  },
+  Object {
+    "appid": 104600,
+    "playtime_forever": 29,
+  },
+  Object {
+    "appid": 98200,
+    "playtime_forever": 16,
+  },
+  Object {
+    "appid": 49470,
+    "playtime_forever": 1258,
+  },
+  Object {
+    "appid": 55110,
+    "playtime_forever": 332,
+  },
+  Object {
+    "appid": 94200,
+    "playtime_forever": 339,
+  },
+  Object {
+    "appid": 33440,
+    "playtime_forever": 164,
+  },
+  Object {
+    "appid": 107300,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 107310,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 55230,
+    "playtime_forever": 96,
+  },
+  Object {
+    "appid": 48000,
+    "playtime_forever": 37,
+  },
+  Object {
+    "appid": 72850,
+    "playtime_forever": 2710,
+  },
+  Object {
+    "appid": 107100,
+    "playtime_forever": 377,
+  },
+  Object {
+    "appid": 112100,
+    "playtime_forever": 411,
+  },
+  Object {
+    "appid": 61700,
+    "playtime_forever": 328,
+  },
+  Object {
+    "appid": 41070,
+    "playtime_forever": 69,
+  },
+  Object {
+    "appid": 98400,
+    "playtime_forever": 30,
+  },
+  Object {
+    "appid": 24240,
+    "playtime_forever": 23,
+  },
+  Object {
+    "appid": 113200,
+    "playtime_forever": 524,
+  },
+  Object {
+    "appid": 102600,
+    "playtime_forever": 174,
+  },
+  Object {
+    "appid": 57400,
+    "playtime_forever": 1129,
+  },
+  Object {
+    "appid": 200260,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 80310,
+    "playtime_forever": 61,
+  },
+  Object {
+    "appid": 201290,
+    "playtime_forever": 11,
+  },
+  Object {
+    "appid": 107600,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 48240,
+    "playtime_forever": 1065,
+  },
+  Object {
+    "appid": 200900,
+    "playtime_forever": 283,
+  },
+  Object {
+    "appid": 203510,
+    "playtime_forever": 23,
+  },
+  Object {
+    "appid": 105800,
+    "playtime_forever": 16,
+  },
+  Object {
+    "appid": 205350,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 203770,
+    "playtime_forever": 64,
+  },
+  Object {
+    "appid": 204940,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 203810,
+    "playtime_forever": 110,
+  },
+  Object {
+    "appid": 520720,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 108710,
+    "playtime_forever": 75,
+  },
+  Object {
+    "appid": 205690,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 40390,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 205730,
+    "playtime_forever": 53,
+  },
+  Object {
+    "appid": 204060,
+    "playtime_forever": 78,
+  },
+  Object {
+    "appid": 207610,
+    "playtime_forever": 19,
+  },
+  Object {
+    "appid": 209330,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 228320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 209370,
+    "playtime_forever": 147,
+  },
+  Object {
+    "appid": 200710,
+    "playtime_forever": 611,
+  },
+  Object {
+    "appid": 208140,
+    "playtime_forever": 448,
+  },
+  Object {
+    "appid": 108800,
+    "playtime_forever": 226,
+  },
+  Object {
+    "appid": 200010,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 50300,
+    "playtime_forever": 348,
+  },
+  Object {
+    "appid": 57900,
+    "playtime_forever": 34,
+  },
+  Object {
+    "appid": 97330,
+    "playtime_forever": 99,
+  },
+  Object {
+    "appid": 63710,
+    "playtime_forever": 171,
+  },
+  Object {
+    "appid": 211420,
+    "playtime_forever": 3086,
+  },
+  Object {
+    "appid": 20500,
+    "playtime_forever": 1297,
+  },
+  Object {
+    "appid": 20530,
+    "playtime_forever": 73,
+  },
+  Object {
+    "appid": 20550,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 1700,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 205100,
+    "playtime_forever": 1196,
+  },
+  Object {
+    "appid": 207370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 207380,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 207400,
+    "playtime_forever": 115,
+  },
+  Object {
+    "appid": 209270,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 214700,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 208580,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 214830,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 212680,
+    "playtime_forever": 465,
+  },
+  Object {
+    "appid": 204360,
+    "playtime_forever": 45,
+  },
+  Object {
+    "appid": 49520,
+    "playtime_forever": 72,
+  },
+  Object {
+    "appid": 205060,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 219150,
+    "playtime_forever": 205,
+  },
+  Object {
+    "appid": 208200,
+    "playtime_forever": 72,
+  },
+  Object {
+    "appid": 219640,
+    "playtime_forever": 52,
+  },
+  Object {
+    "appid": 8870,
+    "playtime_forever": 734,
+  },
+  Object {
+    "appid": 200510,
+    "playtime_forever": 384,
+  },
+  Object {
+    "appid": 211400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 214610,
+    "playtime_forever": 94,
+  },
+  Object {
+    "appid": 218410,
+    "playtime_forever": 235,
+  },
+  Object {
+    "appid": 207040,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 223730,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 223530,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 221020,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 220240,
+    "playtime_forever": 249,
+  },
+  Object {
+    "appid": 218680,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 224960,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 221640,
+    "playtime_forever": 119,
+  },
+  Object {
+    "appid": 223510,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 209950,
+    "playtime_forever": 130,
+  },
+  Object {
+    "appid": 220700,
+    "playtime_forever": 100,
+  },
+  Object {
+    "appid": 225140,
+    "playtime_forever": 47,
+  },
+  Object {
+    "appid": 227320,
+    "playtime_forever": 41,
+  },
+  Object {
+    "appid": 205070,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 218060,
+    "playtime_forever": 125,
+  },
+  Object {
+    "appid": 43160,
+    "playtime_forever": 936,
+  },
+  Object {
+    "appid": 228280,
+    "playtime_forever": 29,
+  },
+  Object {
+    "appid": 221810,
+    "playtime_forever": 56,
+  },
+  Object {
+    "appid": 219680,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 219890,
+    "playtime_forever": 364,
+  },
+  Object {
+    "appid": 225260,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 231200,
+    "playtime_forever": 212,
+  },
+  Object {
+    "appid": 99900,
+    "playtime_forever": 278,
+  },
+  Object {
+    "appid": 200210,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 201190,
+    "playtime_forever": 17,
+  },
+  Object {
+    "appid": 230410,
+    "playtime_forever": 43,
+  },
+  Object {
+    "appid": 238070,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 238960,
+    "playtime_forever": 164,
+  },
+  Object {
+    "appid": 3483,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 232450,
+    "playtime_forever": 576,
+  },
+  Object {
+    "appid": 271290,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 220200,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 228760,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 230780,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 220660,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 233450,
+    "playtime_forever": 55,
+  },
+  Object {
+    "appid": 230700,
+    "playtime_forever": 84,
+  },
+  Object {
+    "appid": 227680,
+    "playtime_forever": 11,
+  },
+  Object {
+    "appid": 234900,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 232050,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 235660,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 233550,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 230980,
+    "playtime_forever": 27,
+  },
+  Object {
+    "appid": 113020,
+    "playtime_forever": 28,
+  },
+  Object {
+    "appid": 224760,
+    "playtime_forever": 54,
+  },
+  Object {
+    "appid": 233230,
+    "playtime_forever": 19,
+  },
+  Object {
+    "appid": 234650,
+    "playtime_forever": 91,
+  },
+  Object {
+    "appid": 226980,
+    "playtime_forever": 25,
+  },
+  Object {
+    "appid": 21980,
+    "playtime_forever": 55,
+  },
+  Object {
+    "appid": 204450,
+    "playtime_forever": 204,
+  },
+  Object {
+    "appid": 238210,
+    "playtime_forever": 109,
+  },
+  Object {
+    "appid": 230190,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 215530,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 236090,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 206190,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 231160,
+    "playtime_forever": 303,
+  },
+  Object {
+    "appid": 241600,
+    "playtime_forever": 482,
+  },
+  Object {
+    "appid": 35720,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 236850,
+    "playtime_forever": 12,
+  },
+  Object {
+    "appid": 206420,
+    "playtime_forever": 1273,
+  },
+  Object {
+    "appid": 242820,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 242920,
+    "playtime_forever": 267,
+  },
+  Object {
+    "appid": 243200,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 217140,
+    "playtime_forever": 12,
+  },
+  Object {
+    "appid": 39140,
+    "playtime_forever": 158,
+  },
+  Object {
+    "appid": 245070,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 243360,
+    "playtime_forever": 11,
+  },
+  Object {
+    "appid": 38740,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 201420,
+    "playtime_forever": 66,
+  },
+  Object {
+    "appid": 237530,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 245550,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 247020,
+    "playtime_forever": 91,
+  },
+  Object {
+    "appid": 225080,
+    "playtime_forever": 49,
+  },
+  Object {
+    "appid": 239030,
+    "playtime_forever": 109,
+  },
+  Object {
+    "appid": 209000,
+    "playtime_forever": 95,
+  },
+  Object {
+    "appid": 237630,
+    "playtime_forever": 53,
+  },
+  Object {
+    "appid": 248190,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 239350,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 232430,
+    "playtime_forever": 128,
+  },
+  Object {
+    "appid": 218620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 249590,
+    "playtime_forever": 22,
+  },
+  Object {
+    "appid": 226960,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 238320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 239200,
+    "playtime_forever": 45,
+  },
+  Object {
+    "appid": 250180,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 250260,
+    "playtime_forever": 145,
+  },
+  Object {
+    "appid": 250760,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 250900,
+    "playtime_forever": 168,
+  },
+  Object {
+    "appid": 251990,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 252030,
+    "playtime_forever": 183,
+  },
+  Object {
+    "appid": 252290,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 252490,
+    "playtime_forever": 207,
+  },
+  Object {
+    "appid": 252630,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 252950,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 253790,
+    "playtime_forever": 79,
+  },
+  Object {
+    "appid": 254130,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 233130,
+    "playtime_forever": 47,
+  },
+  Object {
+    "appid": 255520,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 254700,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 242980,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 255870,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 256290,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 226620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 219990,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 213670,
+    "playtime_forever": 609,
+  },
+  Object {
+    "appid": 235800,
+    "playtime_forever": 28,
+  },
+  Object {
+    "appid": 238010,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 259720,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 94400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 221910,
+    "playtime_forever": 135,
+  },
+  Object {
+    "appid": 235620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 233310,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 261030,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 246580,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 261530,
+    "playtime_forever": 30,
+  },
+  Object {
+    "appid": 261570,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 261940,
+    "playtime_forever": 24,
+  },
+  Object {
+    "appid": 262150,
+    "playtime_forever": 12,
+  },
+  Object {
+    "appid": 281050,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 262590,
+    "playtime_forever": 23,
+  },
+  Object {
+    "appid": 264240,
+    "playtime_forever": 48,
+  },
+  Object {
+    "appid": 264710,
+    "playtime_forever": 109,
+  },
+  Object {
+    "appid": 265690,
+    "playtime_forever": 16,
+  },
+  Object {
+    "appid": 265890,
+    "playtime_forever": 103,
+  },
+  Object {
+    "appid": 266010,
+    "playtime_forever": 123,
+  },
+  Object {
+    "appid": 237990,
+    "playtime_forever": 381,
+  },
+  Object {
+    "appid": 39150,
+    "playtime_forever": 275,
+  },
+  Object {
+    "appid": 267360,
+    "playtime_forever": 101,
+  },
+  Object {
+    "appid": 211820,
+    "playtime_forever": 784,
+  },
+  Object {
+    "appid": 367540,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 226840,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 41900,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 240760,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 259130,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 404730,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 230230,
+    "playtime_forever": 71,
+  },
+  Object {
+    "appid": 373420,
+    "playtime_forever": 42,
+  },
+  Object {
+    "appid": 270130,
+    "playtime_forever": 150,
+  },
+  Object {
+    "appid": 270170,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 235460,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 271590,
+    "playtime_forever": 1551,
+  },
+  Object {
+    "appid": 271900,
+    "playtime_forever": 321,
+  },
+  Object {
+    "appid": 236430,
+    "playtime_forever": 3342,
+  },
+  Object {
+    "appid": 232790,
+    "playtime_forever": 405,
+  },
+  Object {
+    "appid": 272040,
+    "playtime_forever": 51,
+  },
+  Object {
+    "appid": 272270,
+    "playtime_forever": 639,
+  },
+  Object {
+    "appid": 273570,
+    "playtime_forever": 10,
+  },
+  Object {
+    "appid": 273580,
+    "playtime_forever": 10,
+  },
+  Object {
+    "appid": 273600,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 273620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 274190,
+    "playtime_forever": 82,
+  },
+  Object {
+    "appid": 244430,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 275850,
+    "playtime_forever": 185,
+  },
+  Object {
+    "appid": 235210,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 282140,
+    "playtime_forever": 610,
+  },
+  Object {
+    "appid": 283450,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 283640,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 284750,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 284770,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 286690,
+    "playtime_forever": 65,
+  },
+  Object {
+    "appid": 287700,
+    "playtime_forever": 558,
+  },
+  Object {
+    "appid": 287980,
+    "playtime_forever": 79,
+  },
+  Object {
+    "appid": 290260,
+    "playtime_forever": 91,
+  },
+  Object {
+    "appid": 290300,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 294100,
+    "playtime_forever": 223,
+  },
+  Object {
+    "appid": 201810,
+    "playtime_forever": 39,
+  },
+  Object {
+    "appid": 295790,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 238460,
+    "playtime_forever": 75,
+  },
+  Object {
+    "appid": 237930,
+    "playtime_forever": 462,
+  },
+  Object {
+    "appid": 300570,
+    "playtime_forever": 411,
+  },
+  Object {
+    "appid": 292120,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 292140,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 287390,
+    "playtime_forever": 45,
+  },
+  Object {
+    "appid": 303210,
+    "playtime_forever": 83,
+  },
+  Object {
+    "appid": 244160,
+    "playtime_forever": 69,
+  },
+  Object {
+    "appid": 304430,
+    "playtime_forever": 116,
+  },
+  Object {
+    "appid": 304930,
+    "playtime_forever": 10,
+  },
+  Object {
+    "appid": 306760,
+    "playtime_forever": 537,
+  },
+  Object {
+    "appid": 311340,
+    "playtime_forever": 141,
+  },
+  Object {
+    "appid": 312750,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 221540,
+    "playtime_forever": 103,
+  },
+  Object {
+    "appid": 312860,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 316790,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 65980,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 241930,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 321480,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 321800,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 322500,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 258520,
+    "playtime_forever": 309,
+  },
+  Object {
+    "appid": 400430,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 322770,
+    "playtime_forever": 26,
+  },
+  Object {
+    "appid": 204080,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 218130,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 231740,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 234390,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 323320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 323950,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 239140,
+    "playtime_forever": 148,
+  },
+  Object {
+    "appid": 289130,
+    "playtime_forever": 171,
+  },
+  Object {
+    "appid": 308420,
+    "playtime_forever": 90,
+  },
+  Object {
+    "appid": 332200,
+    "playtime_forever": 481,
+  },
+  Object {
+    "appid": 282070,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 335300,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 335590,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 257510,
+    "playtime_forever": 1024,
+  },
+  Object {
+    "appid": 319630,
+    "playtime_forever": 162,
+  },
+  Object {
+    "appid": 304650,
+    "playtime_forever": 66,
+  },
+  Object {
+    "appid": 304240,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 343450,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 346850,
+    "playtime_forever": 20,
+  },
+  Object {
+    "appid": 346900,
+    "playtime_forever": 19,
+  },
+  Object {
+    "appid": 348250,
+    "playtime_forever": 79,
+  },
+  Object {
+    "appid": 349890,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 291650,
+    "playtime_forever": 633,
+  },
+  Object {
+    "appid": 255710,
+    "playtime_forever": 26,
+  },
+  Object {
+    "appid": 358720,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 348300,
+    "playtime_forever": 9,
+  },
+  Object {
+    "appid": 359870,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 232090,
+    "playtime_forever": 1,
+  },
+  Object {
+    "appid": 232150,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 362890,
+    "playtime_forever": 12,
+  },
+  Object {
+    "appid": 363970,
+    "playtime_forever": 19143,
+  },
+  Object {
+    "appid": 365360,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 274270,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 368370,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 370360,
+    "playtime_forever": 76,
+  },
+  Object {
+    "appid": 243970,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 292030,
+    "playtime_forever": 12410,
+  },
+  Object {
+    "appid": 376240,
+    "playtime_forever": 210,
+  },
+  Object {
+    "appid": 375600,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 377160,
+    "playtime_forever": 4,
+  },
+  Object {
+    "appid": 327140,
+    "playtime_forever": 425,
+  },
+  Object {
+    "appid": 344670,
+    "playtime_forever": 78,
+  },
+  Object {
+    "appid": 380670,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 386690,
+    "playtime_forever": 35,
+  },
+  Object {
+    "appid": 392680,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 396060,
+    "playtime_forever": 32,
+  },
+  Object {
+    "appid": 400760,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 402800,
+    "playtime_forever": 14,
+  },
+  Object {
+    "appid": 406410,
+    "playtime_forever": 19,
+  },
+  Object {
+    "appid": 412740,
+    "playtime_forever": 236,
+  },
+  Object {
+    "appid": 414120,
+    "playtime_forever": 36,
+  },
+  Object {
+    "appid": 418520,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 418650,
+    "playtime_forever": 36,
+  },
+  Object {
+    "appid": 427890,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 431370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 432850,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 434430,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 436940,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 452710,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 382890,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 383870,
+    "playtime_forever": 99,
+  },
+  Object {
+    "appid": 388210,
+    "playtime_forever": 57,
+  },
+  Object {
+    "appid": 391540,
+    "playtime_forever": 437,
+  },
+  Object {
+    "appid": 219740,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 342180,
+    "playtime_forever": 22,
+  },
+  Object {
+    "appid": 343730,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 371360,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 373650,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 380220,
+    "playtime_forever": 5,
+  },
+  Object {
+    "appid": 382360,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 384750,
+    "playtime_forever": 7,
+  },
+  Object {
+    "appid": 400940,
+    "playtime_forever": 27,
+  },
+  Object {
+    "appid": 408340,
+    "playtime_forever": 304,
+  },
+  Object {
+    "appid": 411620,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 411820,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 396120,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 399060,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 405320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 225540,
+    "playtime_forever": 21,
+  },
+  Object {
+    "appid": 337000,
+    "playtime_forever": 1801,
+  },
+  Object {
+    "appid": 405640,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 410850,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411180,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411181,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411182,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411183,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411184,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411185,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411186,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411187,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411188,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411189,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411190,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411191,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411192,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411193,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 411194,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523480,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523481,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523482,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523483,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523484,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523485,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523486,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523487,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523488,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523489,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 523490,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413850,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413851,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413852,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413853,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413854,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413855,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413856,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413857,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413858,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 413859,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 497810,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 497811,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 497812,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 497813,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 585280,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 585281,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 585282,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 585283,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 272920,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 299400,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 342190,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 374970,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 389800,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 391480,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 392150,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 406890,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 435380,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 436890,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 447330,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 456740,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 457650,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 461100,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 501870,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 509140,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 509250,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 509380,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 551370,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 592640,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 600980,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 415420,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 375910,
+    "playtime_forever": 226,
+  },
+  Object {
+    "appid": 416450,
+    "playtime_forever": 2,
+  },
+  Object {
+    "appid": 419910,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 420090,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 254860,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 254920,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 397350,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 404040,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 423580,
+    "playtime_forever": 125,
+  },
+  Object {
+    "appid": 427520,
+    "playtime_forever": 676,
+  },
+  Object {
+    "appid": 210970,
+    "playtime_forever": 738,
+  },
+  Object {
+    "appid": 310950,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 433600,
+    "playtime_forever": 9,
+  },
+  Object {
+    "appid": 433700,
+    "playtime_forever": 6,
+  },
+  Object {
+    "appid": 268500,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 205230,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 205950,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 374320,
+    "playtime_forever": 55,
+  },
+  Object {
+    "appid": 450390,
+    "playtime_forever": 226,
+  },
+  Object {
+    "appid": 453170,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 350280,
+    "playtime_forever": 37,
+  },
+  Object {
+    "appid": 458250,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458260,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458270,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458280,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458300,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458310,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 458320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 464660,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 518400,
+    "playtime_forever": 3,
+  },
+  Object {
+    "appid": 465240,
+    "playtime_forever": 8,
+  },
+  Object {
+    "appid": 379720,
+    "playtime_forever": 270,
+  },
+  Object {
+    "appid": 486780,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 494810,
+    "playtime_forever": 17,
+  },
+  Object {
+    "appid": 495110,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 497780,
+    "playtime_forever": 13,
+  },
+  Object {
+    "appid": 499520,
+    "playtime_forever": 22,
+  },
+  Object {
+    "appid": 504210,
+    "playtime_forever": 693,
+  },
+  Object {
+    "appid": 518580,
+    "playtime_forever": 18,
+  },
+  Object {
+    "appid": 289070,
+    "playtime_forever": 103,
+  },
+  Object {
+    "appid": 530350,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 403640,
+    "playtime_forever": 53,
+  },
+  Object {
+    "appid": 534600,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534610,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534611,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534612,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534613,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534614,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534615,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534616,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534617,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534618,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534619,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534620,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534621,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534622,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534623,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534624,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534625,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534626,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534627,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534628,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534629,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534630,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534631,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534632,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534633,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534634,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534635,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 534636,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550760,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550761,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550762,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550763,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550764,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550765,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550766,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550767,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550768,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550769,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550770,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550771,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550772,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550773,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550774,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550775,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550776,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550777,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550778,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550779,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550780,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550781,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550782,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550783,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 550784,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 539730,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 542970,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 542971,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 542972,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 493340,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 568320,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 576030,
+    "playtime_forever": 17,
+  },
+  Object {
+    "appid": 596420,
+    "playtime_forever": 0,
+  },
+  Object {
+    "appid": 489520,
+    "playtime_forever": 0,
+  },
+]
+`;

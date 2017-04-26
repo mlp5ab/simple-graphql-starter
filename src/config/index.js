@@ -23,7 +23,8 @@ const environmentVariables = [
     'POSTGRES_USER',
     'POSTGRES_DBNAME',
     'POSTGRES_SYNC_FORCE',
-    'POSTGRES_PASSWORD'
+    'POSTGRES_PASSWORD',
+    'STEAM_API_KEY'
 ].filter(variable => !process.env[variable]);
 
 if (environmentVariables.length) {
@@ -43,6 +44,10 @@ if (environmentVariables.length) {
 const config = {
     name: `${process.env.NAME}-${process.env.PORT}`,
     port: process.env.PORT,
+    steam: {
+        url: 'http://api.steampowered.com',
+        apiKey: process.env.STEAM_API_KEY
+    },
     tokens: {
         saltRounds: 10,
         expiresInMinutes: 60,

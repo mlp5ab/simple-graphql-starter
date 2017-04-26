@@ -29,6 +29,8 @@ The following environment variables are required to run in a file called `dev.en
     * TYPE: boolean
     * Forces updates on the db for orm building
 
+#### Information for Steam API
+* STEAM_API_KEY
 
 ## Available Commands
 
