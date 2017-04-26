@@ -5,9 +5,6 @@ import config from '../config/index';
 
 export const hashPassword = password =>
     bcrypt.hash(password, config.saltRounds)
-        .then((err, hash) =>
-            (err ? Promise.reject(err) : Promise.resolve(hash))
-        );
 
 export const generateJwt = (tokenBody, expirationTime = moment().unix()) =>
     jwt.sign(
@@ -21,3 +18,10 @@ export const generateJwt = (tokenBody, expirationTime = moment().unix()) =>
 export const decodeJwt = (algorithm, token) =>
     jwt.verify(token, config.tokens.jwt_secret, { algorithm: 'HS256' })
         .then((err, decodedToken) => (err ? Promise.reject(err) : Promise.resolve(decodedToken)));
+
+export const comparePassword = (inputPassword, password) =>
+    bcrypt.compare(inputPassword, password)
+        .then((err, res) => ((err || res === false) ?
+            Promise.reject('Incorrect password.') :
+            true
+        ));

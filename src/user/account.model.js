@@ -2,7 +2,7 @@ import Sequelize from 'sequelize';
 import config from '../config/index';
 import { sqlConnection } from '../db/index';
 
-export const AccountModel = sqlConnection.define('account', {
+export const AccountModel = sqlConnection.define('userAccounts', {
     id: {
         type: Sequelize.UUID,
         primaryKey: true,
@@ -26,8 +26,7 @@ export const AccountModel = sqlConnection.define('account', {
         }
     },
     steamId: {
-        type: Sequelize.STRING,
-        allowNull: true
+        type: Sequelize.STRING
     }
 });
 
@@ -52,4 +51,4 @@ export const getByEmail = email =>
 
 export const setSteamId = (id, steamId) =>
     AccountModel.update({ steamId }, { where: { id } })
-        .then(account => getPlain(account));
+        .then(() => get(id));
