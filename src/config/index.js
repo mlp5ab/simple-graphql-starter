@@ -43,6 +43,11 @@ if (environmentVariables.length) {
 const config = {
     name: `${process.env.NAME}-${process.env.PORT}`,
     port: process.env.PORT,
+    tokens: {
+        saltRounds: 10,
+        expiresInMinutes: 60,
+        jwtSecret: process.env.JWT_SECRET
+    },
     sequelize: {
         dbname: process.env.POSTGRES_DBNAME,
         user: process.env.POSTGRES_USER,

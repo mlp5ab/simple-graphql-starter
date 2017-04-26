@@ -24,6 +24,10 @@ export const AccountModel = sqlConnection.define('account', {
         validate: {
             notEmpty: true
         }
+    },
+    steamId: {
+        type: Sequelize.STRING,
+        allowNull: true
     }
 });
 
@@ -31,10 +35,21 @@ export const options = {
     sync: () => AccountModel.sync({ force: config.sequelize.sync.force })
 };
 
+const getPlain = account =>
+    (account ? account.get({ plain: true }) : null);
+
 export const get = id =>
     AccountModel.findByPrimary(id)
-        .then(account => (account ? account.get({ plain: true }) : null));
+        .then(account => getPlain(account));
 
 export const create = (email, hashedPassword) =>
     AccountModel.create({ email, password: hashedPassword })
-        .then(account => (account ? account.get({ plain: true }) : null));
+        .then(account => getPlain(account));
+
+export const getByEmail = email =>
+    AccountModel.findOne({ where: { email } })
+        .then(account => getPlain(account));
+
+export const setSteamId = (id, steamId) =>
+    AccountModel.update({ steamId }, { where: { id } })
+        .then(account => getPlain(account));
