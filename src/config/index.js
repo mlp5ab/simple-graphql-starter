@@ -44,11 +44,11 @@ const config = {
     name: `${process.env.NAME}-${process.env.PORT}`,
     port: process.env.PORT,
     sequelize: {
-        host: process.env.POSTGRES_HOST,
-        port: process.env.POSTGRES_PORT,
+        dbname: process.env.POSTGRES_DBNAME,
         user: process.env.POSTGRES_USER,
         password: process.env.POSTGRES_PASSWORD,
-        dbname: process.env.POSTGRES_DBNAME,
+        host: process.env.POSTGRES_HOST,
+        port: process.env.POSTGRES_PORT,
         sync: {
             force: process.env.POSTGRES_SYNC_FORCE === 'true'
         },
