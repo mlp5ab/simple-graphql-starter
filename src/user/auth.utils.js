@@ -6,22 +6,31 @@ import config from '../config/index';
 export const hashPassword = password =>
     bcrypt.hash(password, config.saltRounds)
 
-export const generateJwt = (tokenBody, expirationTime = moment().unix()) =>
-    jwt.sign(
-        Object.assign({}, tokenBody, { exp: expirationTime }),
-        config.tokens.jwtSecret,
-        { algorithm: 'HS256' }
-    ).then((err, signedToken) =>
-        (err ? Promise.reject(err) : Promise.resolve(signedToken))
-    );
+export const generateJwt = (tokenBody, expirationTime = moment()) =>
+    new Promise((resolve, reject) => {
+        const exp = expirationTime
+            .add(config.tokens.expiresInMinutes, 'minutes')
+            .unix();
 
-export const decodeJwt = (algorithm, token) =>
-    jwt.verify(token, config.tokens.jwt_secret, { algorithm: 'HS256' })
-        .then((err, decodedToken) => (err ? Promise.reject(err) : Promise.resolve(decodedToken)));
+        jwt.sign(
+            Object.assign({}, tokenBody, { exp }),
+            config.tokens.jwtSecret,
+            { algorithm: 'HS256' },
+            (err, signedToken) => (err ? reject(err) : resolve(signedToken))
+        );
+    });
+
+export const decodeJwt = token =>
+    new Promise((resolve, reject) => {
+        jwt.verify(
+            token,
+            config.tokens.jwtSecret,
+            { algorithm: 'HS256' },
+            (err, signedToken) => (err ? reject(err) : resolve(signedToken))
+        );
+    });
 
 export const comparePassword = (inputPassword, password) =>
     bcrypt.compare(inputPassword, password)
-        .then((err, res) => ((err || res === false) ?
-            Promise.reject('Incorrect password.') :
-            true
-        ));
+        .then(res => res ||
+            Promise.reject('Incorrect password.'));
