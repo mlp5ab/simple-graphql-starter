@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node src/server.js --presets es2015"
+    "start": "nodemon src/server.js --exec babel-node -- --debug"
   },
   "author": "Michael Paris",
   "license": "ISC",
@@ -24,6 +24,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0"
-  }
+    "babel-preset-es2015": "^6.24.0",
+    "devenv": "^1.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "repository": "git@github.com:joshferrell/simple-graphql-starter.git"
 }
