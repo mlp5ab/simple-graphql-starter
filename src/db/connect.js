@@ -9,6 +9,9 @@ const connect = () =>
             console.log('Successful authentication')
         ))
         .then(() => ormInit())
-        .then(() => console.log('Configured orm'));
+        .then(() => {
+            console.log('Configured orm');
+            return true;
+        });
 
 export default connect;
