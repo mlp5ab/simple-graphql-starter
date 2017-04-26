@@ -1,4 +1,4 @@
-import getPlayers from './getPlayers.service';
+import getPlayers from './getSteamId.service';
 
 describe('Get Player Data From Steam', () => {
     it('should return a steam id given a steam vanity url', async () => {

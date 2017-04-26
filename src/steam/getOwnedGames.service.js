@@ -1,5 +1,5 @@
+import fetch from 'node-fetch';
 import config from '../config/index';
-const fetch = require('node-fetch');
 
 const getOwnedGames = steamId =>
     new Promise(async (resolve, reject) => {

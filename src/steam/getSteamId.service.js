@@ -1,11 +1,9 @@
+import fetch from 'node-fetch';
 import config from '../config/index';
-const fetch = require('node-fetch');
 
 const getPlayers = steamUserName =>
     new Promise(async (resolve, reject) => {
         const url = `${config.steam.url}/ISteamUser/ResolveVanityURL/v0001/?key=${config.steam.apiKey}&vanityurl=${steamUserName}`;
-
-        console.log(url);
 
         try {
             const res = await fetch(url);
