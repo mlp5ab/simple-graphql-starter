@@ -1,9 +1,7 @@
-import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 
-if (process.argv.some(arg => arg === '--debug')) {
-    process.env.DEBUG = true;
+if (process.env.DEBUG) {
     const environmentVariablesPath = path.join(__dirname, '../../dev.env');
     dotenv.config({ path: environmentVariablesPath });
 
@@ -18,6 +16,8 @@ if (process.argv.some(arg => arg === '--debug')) {
 
 const environmentVariables = [
     'JWT_SECRET',
+    'NAME',
+    'PORT',
     'POSTGRES_HOST',
     'POSTGRES_PORT',
     'POSTGRES_USER',
@@ -29,10 +29,35 @@ const environmentVariables = [
 if (environmentVariables.length) {
     console.log(`
         Missing the following environment variables:
+
             [
-                ${environmentVariables.join(',\n\t')}
+                ${environmentVariables.join(',\n\t\t')}
             ]
 
         Shutting down.
     `);
+
+    process.exit(1);
 }
+
+const config = {
+    name: `${process.env.NAME}-${process.env.PORT}`,
+    port: process.env.PORT,
+    sequelize: {
+        host: process.env.POSTGRES_HOST,
+        port: process.env.POSTGRES_PORT,
+        user: process.env.POSTGRES_USER,
+        password: process.env.POSTGRES_PASSWORD,
+        dbname: process.env.POSTGRES_DBNAME,
+        sync: {
+            force: process.env.POSTGRES_SYNC_FORCE === 'true'
+        },
+        pool: {
+            max: 5,
+            min: 0,
+            idle: 10000
+        }
+    }
+};
+
+export default config;

@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js --exec babel-node -- --debug",
+    "start": "DEBUG=true nodemon src/server.js --exec babel-node",
     "lint": "eslint ./src/**/*.js"
   },
   "author": "Michael Paris",
